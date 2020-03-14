@@ -19,7 +19,6 @@ connection.connect(function(err) {
         console.error("error connecting at: " + err.stack);
         return;
     }
-    console.log("connected at id " + connection.threadId);
 });
 
 module.exports = connection;
