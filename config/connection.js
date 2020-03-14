@@ -14,12 +14,12 @@ if (process.env.JAWSDB_URL) {
     });
 }
 
-connection.connect((err) => {
+connection.connect(function(err) {
     if (err) {
-        console.error("error connectiong: " + err.stack);
+        console.error("error connecting at: " + err.stack);
         return;
     }
-    console.log("Connected at id " + connection.threadId);
+    console.log("connected at id " + connection.threadId);
 });
 
 module.exports = connection;
