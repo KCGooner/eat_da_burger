@@ -12,7 +12,6 @@ $(function() {
             type: "POST",
             data: newIdea
         }).then(function() {
-            console.log("New Burger");
             location.reload();
         });
     });
@@ -29,7 +28,6 @@ $(function() {
             type: "PUT",
             data: foodGone
         }).then(function() {
-            console.log("Burger Gone!");
             location.reload();
         });
     });

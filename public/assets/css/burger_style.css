@@ -1,0 +1,54 @@
+html body {
+    background-color: lightslategray;
+}
+
+.jumbotron {
+    background-image: url("/assets/img/burger.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+label {
+    font-family: "Andale Mono", monospace;
+}
+
+.jumbotron > h1 {
+    font-family: "Andale Mono", monospace;
+}
+
+#textcolor {
+    color: lightgray !important;
+    font: outline 2px black;
+}
+
+#eatburger {
+    float: right;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+#trashbutton {
+    float: right;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+#leftpanel {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    font-family: "Andale Mono", monospace;
+    font-size: 2em;
+}
+
+#rightpanel {
+    background-color: lightsalmon;
+    color: white;
+    text-align: center;
+    font-family: "Andale Mono", monospace;
+    font-size: 2em;
+}
